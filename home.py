@@ -24,7 +24,7 @@ def main():
     choice = st.sidebar.selectbox("Menu", menu)
     if choice == "Home":
         st.subheader('Home Menu')
-        st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Titanic-Cobh-Harbour-1912.JPG/1600px-Titanic-Cobh-Harbour-1912.JPG')
+        st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/St%C3%B6wer_Titanic.jpg/960px-St%C3%B6wer_Titanic.jpg')
         st.write("""
                 ###### APP Content:
                 EDA Section: Exploratory Data Analysis of Data | Prediction Section: ML Predictor App
